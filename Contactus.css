@@ -1,0 +1,106 @@
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.header2{
+	background-image:url("bake3.jpg");
+	background-size:1380px 400px;
+	background-color:#0099CC;
+	text-align:center;
+	padding:160px;
+	color:#F00;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;	
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 8px;
+  color: white;
+  background-color: green;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+body {
+  font-family: Arial;
+}	
+.row:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.card1{
+	padding: 30px;
+	margin-top: 12px;
+	background-color: #ffffff;
+}
+.column{float: left; padding: 2px;}
+
+.column.left{
+	width:24%;
+	background-color:#ffffff;
+}	
+.column.right{
+	width:24%;
+	background-color:#ffffff;
+	
+}
+.column.right2{
+	width:24%;
+	background-color:#ffffff;
+}
+.column.right3{
+	width:24%;
+	background-color:#ffffff;
+	
+}	
+
+/* The navigation bar */
+.navbar {
+  overflow:hidden;
+  background-color: #333;
+  position: sticky; /* Set the navbar to fixed position */
+  top: 0;/* Position the navbar at the top of the page */	
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #F80206;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+
